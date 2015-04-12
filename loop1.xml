@@ -2,8 +2,8 @@
   <block type="controls_whileUntil" id="39" inline="false" x="126" y="36">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="sensor_button" id="144">
-        <field name="OBJECT">UP</field>
+      <block type="math_number" id="185">
+        <field name="NUM">0</field>
       </block>
     </value>
     <statement name="DO">
@@ -75,21 +75,5 @@
         </next>
       </block>
     </statement>
-    <next>
-      <block type="movement_forward" id="154">
-        <next>
-          <block type="robot_delay" id="156" inline="true">
-            <value name="DELAY">
-              <block type="math_number" id="157">
-                <field name="NUM">5000</field>
-              </block>
-            </value>
-            <next>
-              <block type="movement_stop" id="182"></block>
-            </next>
-          </block>
-        </next>
-      </block>
-    </next>
   </block>
 </xml>
