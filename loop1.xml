@@ -2,8 +2,8 @@
   <block type="controls_whileUntil" id="39" inline="false" x="126" y="36">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
-      <block type="math_number" id="185">
-        <field name="NUM">0</field>
+      <block type="sensor_button" id="228">
+        <field name="OBJECT">UP</field>
       </block>
     </value>
     <statement name="DO">
